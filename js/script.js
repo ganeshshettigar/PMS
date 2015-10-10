@@ -6,6 +6,15 @@ $(document).ready(function(){
 	if ($('').exists()) {
 		
 	}
-	
+	/*Scroll Bar*/
+	if ($('.ScrollPanel').exists()) {
+		$(".ScrollPanel").mCustomScrollbar({
+			theme:"minimal-dark",
+			scrollInertia: 100,
+			advanced:{
+			 autoScrollOnFocus: true
+		   }
+		});
+	}
 	
 });

@@ -19,4 +19,25 @@
 .wrapper{
 	margin:0 auto;
 }
-
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .form-inline .form-group .btn {
+        padding-left: 19px;
+        padding-right: 19px;
+    };
+}
+span.error.dt_error{
+    display: block !important;
+}
+.form-control-feedback.tick1{
+    display: none;
+}
+.details.disabled,
+.otp_dropdown.disabled{
+    opacity: 0.5;
+}
+.input-group.error{
+    border-color: red;
+}
+.ui-autocomplete#ui-id-1{
+    max-width: 450px !important;
+}
