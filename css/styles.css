@@ -15,8 +15,15 @@
 html,body{
     width: 100%;
     height: 100%;
-    background: #f2f2f2;
-    color: #000;
+    background: #000 url(../images/sombrero-galaxy-wallpaper-for-1920x1080-63-658.jpg) no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #ffffff;
+}
+
+.edit_click img, .icon.ifscIcon img{
+    display: block;
+    width: 100px;
 }
 
 #main{
